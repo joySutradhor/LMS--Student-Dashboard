@@ -84,7 +84,7 @@ export default function CourseMaterial () {
 
   const courseOptions = ['all', ...new Set(data.map(item => item.course_name))]
 
-  const filteredData = data.filter(item => {
+  const filteredData = data?.filter(item => {
     if (filterCourse === 'all') return true
     return item.course_name === filterCourse
   })

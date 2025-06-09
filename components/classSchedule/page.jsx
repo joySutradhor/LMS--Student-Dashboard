@@ -53,7 +53,7 @@ function ClassSchedule () {
     .join(' / ')
 
   // Filter data by status
-  const filteredData = data.filter(item => {
+  const filteredData = data?.filter(item => {
     if (filterStatus === 'all') return true
     return item.status.toLowerCase() === filterStatus
   })
@@ -130,12 +130,12 @@ function ClassSchedule () {
                                 alt={teacher.full_name}
                                 className='w-6 h-6 rounded-full object-cover'
                               />
-                              <span >{teacher.full_name}</span>
+                              <span>{teacher.full_name}</span>
                             </div>
                           ))}
                         </td>
                         <td className='p-2 edn__small__text '>
-                          {formatTime12Hour(item.class_start)} 
+                          {formatTime12Hour(item.class_start)}
                         </td>
                         <td className='p-2 edn__small__text '>
                           {formatTime12Hour(item.class_end)}

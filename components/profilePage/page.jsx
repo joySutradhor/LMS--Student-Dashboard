@@ -75,6 +75,8 @@ export default function ProfilePage () {
     fetchData()
   }, [token])
 
+  console.log(data)
+
   const handleChange = e => {
     const { name, value } = e.target
     setForm(prev => ({ ...prev, [name]: value }))

@@ -65,7 +65,7 @@ export default function Login () {
 
   return (
     <div className='  border border-black/20 outline-none h-[100vh] flex justify-center items-center  rounded shadow'>
-      <div className='border border-black/20 p-10 w-[30vw]'>
+      <div className='border border-black/20 md:p-10 p-5 w-[80vw] lg:w-[30vw] '>
         <h2 className='text-2xl font-bold mb-4'> Student Login</h2>
 
         {serverError && <p className='text-red-500 mb-4'>{serverError}</p>}

@@ -23,7 +23,7 @@ export default function AdmittedCourse () {
     .join(' / ')
 
   // Filter data by status
-  const filteredData = data.filter(item => {
+  const filteredData = data?.filter(item => {
     if (filterStatus === 'all') return true
     return item.status.toLowerCase() === filterStatus
   })

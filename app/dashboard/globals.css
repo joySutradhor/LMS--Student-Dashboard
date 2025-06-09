@@ -64,7 +64,7 @@
     @apply h-[20vh] 2xl:h-[25vh] w-full rounded-xl xl:rounded-2xl object-cover bg-center  bg-no-repeat;
   }
   .edn__hdb__content__parent {
-    @apply flex gap-x-5 items-center h-full justify-center md:justify-start md:pl-[5vw] w-full;
+    @apply flex gap-x-5 items-center h-full justify-center md:justify-start px-[5vw]  md:px-[5vw] w-full;
   }
   .edn__hdb__heading__text {
     @apply text-xl 2xl:text-4xl xl:font-semibold font-bold text-black/80;

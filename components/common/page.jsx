@@ -46,7 +46,7 @@ export default function Banner () {
           <img
             src="https://ik.imagekit.io/0lnr4mwox/Ethical%20den%20-%20gsap/Frame.png?updatedAt=1748177978556"
             alt='calender icon'
-            className='object-cover size-12 md:size-20 lg:size-20 xl:size-16 2xl:size-20 h-full w-full'
+            className='object-cover size-14 md:size-20 lg:size-20 xl:size-16 2xl:size-20 '
           />
         </div>
         <div className='space-y-2'>
